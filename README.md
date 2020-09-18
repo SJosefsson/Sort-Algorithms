@@ -8,8 +8,8 @@ Once the algorithm iterates through the full array without doing any swap the ar
 Big O for Bubble sort is O(n^2)
 
 ## Selection Sort
-Selection sort searches through an array of n values from 0 to n - 1 searching for the lowest value in the array.  Once done it swaps place with the lowest value and the value on the first position in the array. 
-Selection sort then searches through the array again, from from 1 to n - 1, since the lowest value is now secured in the first position of the array. Once done it swaps the new lowest value with the value in the second position in the array. Securing the second lowest value to the second place in the array.
+Selection sort iterates through an array of n values from 0 to n - 1 searching for the lowest value in the array.  Once done it swaps place with the lowest value and the value on the first position in the array. 
+Selection sort then iterates through the array again, from from 1 to n - 1, since the lowest value is now secured in the first position of the array. Once done it swaps the new lowest value with the value in the second position in the array. Securing the second lowest value to the second place in the array.
 This is repeated up until n - 1 times before the array is considered sorted.
 Big O for Selection sort is O(n^2)
 
