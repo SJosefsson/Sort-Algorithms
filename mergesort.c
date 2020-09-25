@@ -26,7 +26,7 @@ int main(void)
     }
 
     // Call mergesort on the initial array
-    *nmbrarray = mergesort(nmbrarray, size);
+    mergesort(nmbrarray, size);
 
     // Print the sorted list
     printf("This is your sorted list:\n");
@@ -75,8 +75,8 @@ int mergesort(int *nmbrarray, int size)
 
         // Call merge sort on the left and right array
         // Merge sort will return them sorted, and they will be saved over the old left and right array
-        *leftarray = mergesort(leftarray, leftsize);
-        *rightarray = mergesort(rightarray, rightsize);
+        mergesort(leftarray, leftsize);
+        mergesort(rightarray, rightsize);
 
         // Initiate iteration values for sorting the left and right array
         int leftiter = 0;
