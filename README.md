@@ -7,6 +7,7 @@ If the current value is bigger than the next value they switch place in the arra
 Once the algorithm iterates through the full array without doing any swap the array is considered sorted.
 
 Big O for Bubble sort is O(n^2)
+
 Ω for Bubble sort is Ω(n)
 
 ## Selection Sort
